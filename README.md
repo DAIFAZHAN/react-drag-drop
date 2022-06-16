@@ -23,6 +23,7 @@
 
 <h2>Droppable和Drop、DropChild</h2>
 原使用方式：
+
 ```
 import { Droppable } from 'react-beautiful-dnd';
 
@@ -39,7 +40,9 @@ import { Droppable } from 'react-beautiful-dnd';
   )}
 </Droppable>;
 ```
+
 现使用方式：
+
 ```
 <Droppable droppableId="droppable-1">
   <DropChild style={{ ...... }}>
@@ -49,7 +52,9 @@ import { Droppable } from 'react-beautiful-dnd';
 ```
 
 <h2>Draggable和Drag</h2>
+
 原使用方式：
+
 ```
 import { Draggable } from 'react-beautiful-dnd';
 
@@ -65,7 +70,9 @@ import { Draggable } from 'react-beautiful-dnd';
   )}
 </Draggable>;
 ```
+
 现使用方式：
+
 ```
 <Drag draggableId="draggable-1" index={0}>
   n<h4>My draggable</h4>

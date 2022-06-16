@@ -21,8 +21,8 @@
 
 ```<Drag>```对应```<Draggable>```
 
-
-原Droppable使用方式：
+<h2>Droppable和Drop、DropChild</h2>
+原使用方式：
 ```
 import { Droppable } from 'react-beautiful-dnd';
 
@@ -48,7 +48,8 @@ import { Droppable } from 'react-beautiful-dnd';
 </Droppable>;
 ```
 
-原Draggable使用方式：
+<h2>Draggable和Drag</h2>
+原使用方式：
 ```
 import { Draggable } from 'react-beautiful-dnd';
 

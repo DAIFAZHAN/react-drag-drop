@@ -16,8 +16,8 @@
     
 替代库的默认格式，接收属性相同
 
-<Drop> 对应 <Droppable>
+```<Drop>``` 对应 ```<Droppable>```
 
-<DropChild> 与<Drop>一起使用，为对 <Droppable> 内provided.placeholder占位符的封装，无需在每次使用时添加provided.placeholder
+```<DropChild>``` 与```<Drop>```一起使用，为对 ```<Droppable>``` 内provided.placeholder占位符的封装，无需在每次使用时添加provided.placeholder
 
-<Drag>对应<Draggable>
+```<Drag>```对应```<Draggable>```

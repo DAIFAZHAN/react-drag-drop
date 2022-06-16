@@ -1,7 +1,7 @@
 # react-drag-drop
 封装react-beautiful-dnd组件，便于项目开发使用
 
-项目中可使用
+项目中可使用如下格式替代react-beautiful-dnd库的默认格式，接收属性相同
 
 	<Drop>
       <DropChild>
@@ -14,7 +14,6 @@
     </Drop>
     
     
-替代库的默认格式，接收属性相同
 
 ```<Drop>``` 对应 ```<Droppable>```
 

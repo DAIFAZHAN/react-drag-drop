@@ -31,7 +31,7 @@ import { Droppable } from 'react-beautiful-dnd';
   {(provided) => (
     <div
       ref={provided.innerRef}
-      style={{ backgroundColor: snapshot.isDraggingOver ? 'blue' : 'grey' }}
+      style={{ backgroundColor: 'blue'}}
       {...provided.droppableProps}
     >
       <h2>I am a droppable!</h2>
@@ -45,7 +45,7 @@ import { Droppable } from 'react-beautiful-dnd';
 
 ```
 <Droppable droppableId="droppable-1">
-  <DropChild style={{ ...... }}>
+  <DropChild style={{ backgroundColor: 'blue'}}>
       <h2>I am a droppable!</h2>
   <DropChild>
 </Droppable>;
@@ -59,7 +59,7 @@ import { Droppable } from 'react-beautiful-dnd';
 import { Draggable } from 'react-beautiful-dnd';
 
 <Draggable draggableId="draggable-1" index={0}>
-  {(provided, snapshot) => (
+  {(provided) => (
     <div
       ref={provided.innerRef}
       {...provided.draggableProps}
@@ -75,6 +75,6 @@ import { Draggable } from 'react-beautiful-dnd';
 
 ```
 <Drag draggableId="draggable-1" index={0}>
-  n<h4>My draggable</h4>
+  <h4>My draggable</h4>
 </Draggable>;
 ```
